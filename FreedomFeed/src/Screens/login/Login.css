@@ -1,0 +1,22 @@
+*{
+  background-color: black;
+}
+.mainlogin{  
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-top: 30%;
+}
+.Metamasklogo{
+  width: 200px;
+  height: 200px;
+}
+.loginbtn{
+  width: 100px;
+  height: 50px;
+  background-color: rgb(233, 155, 9);
+}
+.loginpara{
+  color: aliceblue;
+  font-weight: bold;
+}
