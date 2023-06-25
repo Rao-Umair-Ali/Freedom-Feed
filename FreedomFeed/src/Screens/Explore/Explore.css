@@ -1,0 +1,17 @@
+.Exploremain{
+    
+        display: flex;
+        flex-direction: row;
+        border: 2px solid white;
+        align-items: center;
+        justify-content: center;
+    
+    
+    
+}
+.Explore{
+    background-color: black;
+    width: 65vw;
+    height: 100vh;
+    color: white;
+}

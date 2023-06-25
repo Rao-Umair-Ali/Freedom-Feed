@@ -1,18 +1,20 @@
 
-import React, { useState } from "react";
+
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./Screens/login/Login";
-import Feed from "./Screens/feed/feed";
-import Home from "./Screens/Home/Home";
+import Home from "./Screens/Home/Home"
+import Explore from "./Screens/Explore/Explore";
+import Notification from "./Screens/Notification/Notification";
 function App() {
 
   return (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login/>} />
-          <Route path="/Feed" element={<Feed/>} />
           <Route path="/Home" element={<Home/>} />
+          <Route path="/Explore" element={<Explore/>} />
+          <Route path="/Notification" element={<Notification/>} />
           
         </Routes>
       </BrowserRouter>

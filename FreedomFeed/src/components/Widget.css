@@ -1,0 +1,7 @@
+.MainWidget{
+    height: 100vh;
+    width: 15vw;
+    background-color: #000000;
+    border: 2px solid white;
+    color: aliceblue;
+}
