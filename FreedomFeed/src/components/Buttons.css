@@ -1,0 +1,20 @@
+.Buttons{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 20px;
+    font-weight:lighter;
+    }
+    .Buttonscomp{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .Buttons:hover{
+        background-color:#1DA1F2;
+        color: #ffffff;
+    }

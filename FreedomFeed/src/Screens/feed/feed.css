@@ -1,12 +1,64 @@
+.MainFeed{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
 
+}
 .feed{
     height: 100vh;
-    width: 100vw;
+    width: 20%;
     color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-around;
-    background-color: black;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(0, 0, 0);
+    
 
 
 
+}
+.Feedchild{
+    width: 100%;
+   
+}
+.mintbtn{
+        background-color:#1DA1F2;
+        color: rgb(255, 255, 255);
+        height: 50px;
+        width: 80%;
+        box-sizing: border-box;
+        border: 0px  ;
+        border-radius: 25px;
+       
+        
+}
+.mintbtn:hover{
+    background-color: rgb(255, 255, 255);
+        color:#1DA1F2;
+}
+.mintbtnmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Twitterlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.MainScroll{
+    height: 100vh;
+    width: 65%;
+    background-color: blue;
+    border: 2px solid white;
+}
+
+.MainWidget{
+    height: 100vh;
+    width: 15%;
+    background-color: #4590db;
+    border: 2px solid white;
 }
