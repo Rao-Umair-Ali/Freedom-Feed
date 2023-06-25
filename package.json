@@ -5,6 +5,7 @@
     "harhat": "^1.0.1"
   },
   "dependencies": {
-    "create-react-app": "^5.0.1"
+    "create-react-app": "^5.0.1",
+    "react-router-dom": "^6.14.0"
   }
 }
