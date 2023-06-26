@@ -12,7 +12,7 @@ function LeftBar() {
    <Buttons name = {"Home"} func={()=>navigate("/Home")}/>
    <Buttons name = {"Explore"}  func={()=>navigate("/Explore")}/>
    <Buttons name = {"Notification"}  func={()=>navigate("/Notification")}/>
-   <Buttons name = {"Messages"} />
+   <Buttons name = {"Messages"}  func={()=>navigate("/Message")}/>
    <Buttons name = {"Bookmarks"} />
    <Buttons name = {"Lists"} />
    <Buttons name = {"Profile"} />

@@ -6,6 +6,7 @@ import Login from "./Screens/login/Login";
 import Home from "./Screens/Home/Home"
 import Explore from "./Screens/Explore/Explore";
 import Notification from "./Screens/Notification/Notification";
+import Message from "./Screens/Message/Message";
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/Home" element={<Home/>} />
           <Route path="/Explore" element={<Explore/>} />
           <Route path="/Notification" element={<Notification/>} />
+          <Route path="/Message" element={<Message/>} />
           
         </Routes>
       </BrowserRouter>
