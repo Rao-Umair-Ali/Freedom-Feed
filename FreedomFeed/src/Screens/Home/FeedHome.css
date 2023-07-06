@@ -1,0 +1,17 @@
+.main{
+    background-color: aliceblue;
+
+}
+.Title{
+height: 05vh;
+width: 1180px;
+border-bottom: 1px solid rgb(104, 104, 104);
+position: fixed;
+top: -1;
+ 
+}
+.heading{
+    width: 100%;
+    margin: 15px;
+   
+}
